@@ -84,3 +84,28 @@ echo "My Sample Associative Array using the array() construct";
 		}	 	
 */
 ?>
+
+<?php
+//Classes
+echo " " ."<br>" ."<br>";
+echo "=======================================" ."<br>";
+echo "Objects and OOP Defining Classes and Creating Objects" ."<br>" ."<br>";
+class Person{
+	
+		public $name = '';
+	function name ($newname = NULL)
+	{
+		if (!is_null($newname)) {
+		$this->name = $newname;
+		}
+	return 	$this->name;
+	}
+}
+	$ed = new Person;
+	$ed->name('Eric');
+		echo "Hello, {$ed->name}" ."<br>";
+	$tc = new Person;
+	$tc->name('Mara');
+		echo "Look out below {$tc->name}" ."<br>";	
+echo "=======================================" ."<br>";	
+?>

@@ -9,7 +9,12 @@
 //Inside HTML Tags
 
 echo "Hello, World!" ."<br>";
+
 echo "Sample merge" ."<br>";
+
+echo "For Merging" ."<br>";
+
+
 ?> 
 
 </body>

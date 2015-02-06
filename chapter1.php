@@ -9,7 +9,7 @@
 //Inside HTML Tags
 
 echo "Hello, World!" ."<br>";
-echo "For Merging" ."<br>";
+echo "For Merging lol" ."<br>";
 
 ?> 
 

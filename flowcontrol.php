@@ -1,13 +1,18 @@
 <?php
-//If statements
+//switch
 
-if ($Mara){
-echo ("Hey, Mara!");
-}
-elseif ($Eric){
-echo  ("Hey, baby! :)");
-}else{
-echo "Who are you?";
+switch ($favcolor) {
+    case "red":
+        echo "Your favorite color is red!";
+        break;
+    case "blue":
+        echo "Your favorite color is blue!";
+        break;
+    case "green":
+        echo "Your favorite color is green!";
+        break;
+    default:
+        echo "Your favorite color is neither red, blue, or green!";
 }
 
 ?>

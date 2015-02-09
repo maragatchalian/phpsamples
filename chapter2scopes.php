@@ -1,6 +1,7 @@
 <?php
 function updateCounter()
 {
+global $counter;
 $counter++;
 }
 $counter = 10;

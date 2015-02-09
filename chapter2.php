@@ -152,5 +152,4 @@ $short &= $biglongvariablename;
 $biglongvariablename .= " rocks!";
 print "\$short is $short" ."<br>";
 print "Long is $biglongvariablename" ."<br>";
-
-?> 	
+?>

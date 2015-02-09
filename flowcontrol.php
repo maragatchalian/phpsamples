@@ -1,10 +1,20 @@
 <?php
 //While
 
-$x = 1;
-while($x <= 5) {
-   echo "The number is: $x <br>";
-   $x++;
+echo "While <br>";
+$counter = 0;
+while ($counter < 10){
+echo "Counter is {$counter} <br>";
+$counter++;
 }
+
+echo " <br> For <br>";
+for ($counter = 0; $counter < 10; $counter++){
+	echo "Counter is $counter <br>";
+}
+
+
 ?>  
+
+
 

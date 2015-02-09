@@ -125,6 +125,32 @@ echo "callback achieved";
 }
 call_user_func($callback);
 */
+?>
 
+<?php
+//Variables
+echo " " ."<br>" ."<br>";
+echo "=======================================" ."<br>";
+echo "Variables" ."<br>";
+$day = 60*60*24;
+echo "There are {$day} seconds in a day" ."<br>" ."<br>";
+
+#Variable Variables
+echo "Variable Variables" ."<br>";
+echo "You can reference the value of a variable whose name is stored in another variable by prefacing the variable reference with an additional dollar sign ($)." ."<br>";
+
+$foo = "bar";
+$$foo = "baz";
+echo "$foo" ."<br>";
+
+#Variable References
+echo " " ."<br>" ."<br>";
+echo "Variable Refernces" ."<br>";
+echo "In PHP, references are how you create variable aliases." ."<br>";
+$biglongvariablename = "PHP";
+$short &= $biglongvariablename;
+$biglongvariablename .= " rocks!";
+print "\$short is $short" ."<br>";
+print "Long is $biglongvariablename" ."<br>";
 
 ?> 	

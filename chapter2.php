@@ -86,6 +86,7 @@ echo "My Sample Associative Array using the array() construct";
 ?>
 
 <?php
+
 //Classes
 echo " " ."<br>" ."<br>";
 echo "=======================================" ."<br>";
@@ -108,4 +109,22 @@ class Person{
 	$tc->name('Mara');
 		echo "Look out below {$tc->name}" ."<br>";	
 echo "=======================================" ."<br>";	
+
 ?>
+
+<?php
+/*
+//Callbacks
+echo " " ."<br>" ."<br>";
+echo "=======================================" ."<br>";
+echo "Callbacks" ."<br>" ."<br>";
+
+$callback = function myCallbackFunction()
+{
+echo "callback achieved";
+}
+call_user_func($callback);
+*/
+
+
+?> 	

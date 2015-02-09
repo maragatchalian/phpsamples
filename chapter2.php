@@ -153,3 +153,15 @@ $biglongvariablename .= " rocks!";
 print "\$short is $short" ."<br>";
 print "Long is $biglongvariablename" ."<br>";
 ?>
+
+<?php
+//Function parameters
+echo " " ."<br>" ."<br>";
+echo "=======================================" ."<br>";
+echo "Function Parameters" ."<br>";
+function greet($name){
+echo "Hello, $name!" ."<br>";
+}
+greet ("Janet");
+?>
+
